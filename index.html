@@ -9,12 +9,33 @@
     <style>
         header {
           display: flex;
-          align-items: center;
+          align-items:center;
+    
+        
         }
     
         header img {
           margin-right: 10px; /* Adjust the margin as needed */
         }
+        header{
+          text-align: right;
+        }
+        .about-us{
+          text-align: center;
+          
+        }
+        #about-us-heading{
+          font-family: "Georgia", serif;
+          color: rgb(190, 134, 49)
+        }
+        h1,h2{
+          font-family: "Garamond", serif
+        }
+        #customer-rev{
+          color: rgb(190, 134, 49)
+        }
+        
+        
       </style>
 
 </head>
@@ -34,24 +55,26 @@
 <main>
 <!-- About Us Section -->
 <section class="about-us">
-  <h2>About Us</h2>
-  <p>Welcome to KAMFA Dermatology Practice, Your Path to Healthy, Radiant Skin!
+  <h2 id="about-us-heading"><u>About Us</u></h2>
+  <p>Welcome to KAMFA Dermatology Practice, Your Path to Healthy, Radiant Skin!<br>
 
-    At KAMFA, we believe that beautiful skin is a reflection of a healthy lifestyle and effective skincare.
-    Driven by a passion for dermatology and a commitment to excellence, our practice is dedicated to providing personalized, cutting-edge care
+    At KAMFA, we believe that beautiful skin is a reflection of a healthy lifestyle and effective skincare.<br>
+    Driven by a passion for dermatology and a commitment to excellence, our practice is dedicated<br> to providing personalized, cutting-edge care
     to help you achieve and maintain optimal skin health.</p>
 <!-- About Us contents go here -->
 </section>
 <section class="shop-now">
-<!-- Shop Now Button (as a link to the Products page) -->
+  <a href="products.html" class="shop-now-button">Shop Now</a>
 </section>
 <!-- Customer Reviews/Testimonials Section -->
 <section class="customer-reviews">
-<!-- Add reviews as needed -->
+  <h2 id="customer-rev">Customer Reviews</h2>
+  <p>Jamie Smith:Amazing products! Highly recommended</p>
+  <p>Revy: My skin got so clear after a week of using this product!!</p>
 </section>
 </main>
 <footer>
-<!-- Copyright notice goes here -->
+<p>&copy; 2024 KAMFA. All rights reserved.</p>
 </footer>
 </body>
 </html>
