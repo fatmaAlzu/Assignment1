@@ -1,32 +1,74 @@
-<!--
-=========================================================
-Name        : index.html
-Assignment  : 1
-Author(s)   : Fatma Alzubaidi, Kamand Ghorbanzadeh
-Submission  : February 5th, 2024
-Description : A website for a business about skincare.
-=========================================================
--->
-
-<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="description" content="A website for a business about skincare.">
-  <meta name="keywords" content="KAMFA e-commerence business">
+  <meta name="keywords" content="KAMFA e-commerce business">
   <meta name="author" content="Fatma Alzubaidi, Kamand Ghorbanzadeh">
     <style>
-        header {
-          display: flex;
-          align-items: center;
+        body {
+            font-family: "Garamond", serif;
+            margin: 20px;
         }
-    
-        header img {
-          margin-right: 10px; /* Adjust the margin as needed */
-        }
-      </style>
 
+        header {
+            display: flex;
+            align-items: center;
+            text-align: right;
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+        }
+
+        header img {
+            margin-right: 10px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-family: "Garamond", serif;
+            color: #fff;
+        }
+
+        nav {
+            display: flex;
+            background-color: #444;
+            padding: 10px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin-right: 15px;
+        }
+
+        main {
+            margin-top: 20px;
+        }
+
+        .about-us {
+            text-align: center;
+        }
+
+        #about-us-heading {
+            font-family: "Georgia", serif;
+            color: rgb(190, 134, 49);
+            text-decoration: underline;
+        }
+
+        h1, h2 {
+            font-family: "Garamond", serif;
+        }
+
+        #customer-rev {
+            color: rgb(190, 134, 49);
+            text-decoration: underline;
+        }
+
+        .customer-reviews {
+            margin-top: 20px;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -49,7 +91,7 @@ Description : A website for a business about skincare.
                 At KAMFA, we believe that beautiful skin is a reflection of a healthy lifestyle and effective skincare.<br>
                 Driven by a passion for dermatology and a commitment to excellence, our practice is dedicated<br> to
                 providing personalized, cutting-edge care to help you achieve and maintain optimal skin health.</p>
-            <!-- About Us contents go here -->
+            
         </section>
         <section class="shop-now">
             <a href="products.html" class="shop-now-button">Shop Now</a>
@@ -62,7 +104,7 @@ Description : A website for a business about skincare.
         </section>
     </main>
     <footer>
-        <!-- Copyright notice goes here -->
+        &copy; 2024 KAMFA. All rights reserved.
     </footer>
 </body>
 </html>
