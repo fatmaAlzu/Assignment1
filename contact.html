@@ -10,14 +10,45 @@
             margin: 20px;
 
         }
-        h1{
-            color: #947c39
+        header{
+            display: flex;
+            align-items: center;
+            background-color: #333;
+            color: rgb(190, 134, 49);
+            padding: 10px 20px;
+            
+            
+            
+        }
+        header img{
+            width: 50px 
+        }
+        header h1{
+            margin: 1;
+            margin-left: 1;
+
+        }
+       
+    
+    
+        nav{
+            display: flex;
+            background-color: #444;
+            padding: 10px;  
+        }
+        nav a{
+            color: rgb(254, 252, 250);
+            text-decoration: underline rgb(190, 134, 49);
+            margin-right: 60px;
+            display:inline-block;
+            text-align: center;
+
+        }
+        main{
+            margin-top: 20px;
         }
         .contact-info p{
             margin: 5px 0;
-        }
-        .social-links{
-            margin-top: 20px
         }
         .social-links a{
             display: inline-block;
@@ -26,20 +57,49 @@
             color: rgb(190, 134, 49)
 
         }
+        footer{
+            margin-top: 20px;
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+
+        }
     </style>
 </head>
 <body>
-    <h1>Contact Us</h1>
-    <div class="contact-info">
-        <p>Email: <a href= Kamfa@gmail.com> KAMFA@gmail.com</a></p>
-        <p>Phone: +1 (403) 345-4598</p>
+    <header>
+        <img src = "\images\Logo.jpg" alt = "KAMFA">
+        <h1>KAMFA</h1>
+    </header>
 
-    </div>
-    <div class="social-links">
-        <p> follow us: </p>
-        <a href="https://www.facebook.com" target="_blank">Facebook</a>
-        <a href="https://www.instagram.com" target="_blank">Instagram</a>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="contact.html">Contact Us</a>
+        <a href="login.html">Login</a>
+    </nav>
 
-    </div>
+    <main>
+        <p>Contact us:</p>
+
+        <div class="contact-info">
+            <p>Email: <a href="KAMFA@gmail.com">KAMFA@gmail.com</a></p>
+            <p>Phone: +1 (403) 456-7890</p>
+        </div>
+
+        <div class="social-links">
+            <p>Follow us!</p>
+            <a href="https://www.facebook.com" target="_blank">Facebook</a>
+            <a href="https://www.instagram.com" target="_blank">Instagram</a>
+        </div>
+    </main>
+
+    <footer>
+        &copy; 2024 KAMFA. All rights reserved.
+    </footer>
 </body>
 </html>
